@@ -1,61 +1,142 @@
-🩺 Módulo de Incapacidades
-📅 Julio 2021 – Septiembre 2024
-💻 Tecnologías: .NET (C#), Angular, JavaScript, SQL Server
+# 🩺 Módulo de Incapacidades 2021-2024
 
-Descripción del proyecto:
-Desarrollo e implementación de un módulo de gestión de incapacidades médicas dentro de un sistema empresarial, orientado al control y seguimiento del ausentismo laboral por motivos de salud. El módulo permite registrar, consultar, validar y gestionar incapacidades médicas, así como generar reportes automatizados para talento humano y entidades de salud.
+## 🚧 Proyecto en construcción 🚧
 
-Responsabilidades clave:
+Este repositorio alberga el desarrollo de un módulo integral para la gestión de incapacidades médicas, diseñado para automatizar y optimizar los procesos administrativos relacionados con el ausentismo laboral por motivos de salud.
 
-Diseño e implementación de servicios REST con .NET Core para la lógica de negocio y conexión con base de datos.
+---
 
-Desarrollo del frontend en Angular, integrando formularios dinámicos con validaciones personalizadas en JavaScript.
+## 📋 Tabla de Contenidos
 
-Gestión de roles y permisos para usuarios (médicos, administrativos, empleados).
+1. [Descripción del Proyecto]
+2. [Tecnologías Utilizadas]
+3. [Estructura del Proyecto]
+4. [Instalación y Ejecución]
+5. [Contribuciones]
+6. [Licencia]
 
-Implementación de lógica para cálculo de días hábiles, rangos de fechas, y validación de tipos de incapacidad.
+---
 
-Generación de reportes en PDF y Excel.
+## 🧾 Descripción del Proyecto
 
-Integración con sistemas externos mediante API REST para verificación de certificados médicos.
+Este módulo permite registrar, validar y gestionar incapacidades médicas, facilitando la integración con sistemas de seguridad social y generando reportes automatizados para el área de recursos humanos. Su objetivo es mejorar la trazabilidad, reducir tiempos de procesamiento y garantizar el cumplimiento normativo en el manejo de ausencias laborales.
 
-Documentación técnica y soporte a usuarios finales.
+---
 
-Logros:
+## 🛠️ Tecnologías Utilizadas
 
-Reducción del 40% en el tiempo de procesamiento de incapacidades.
+* **Backend:**
 
-Mejora en la trazabilidad de los procesos médicos y auditoría.
+  * .NET Core (C#)
+  * Web API
+  * SQL Server
 
-Integración exitosa con plataformas de seguridad social.
+* **Frontend:**
 
-🩺 Medical Leave Module
-📅 July 2021 – September 2024
-💻 Technologies: .NET (C#), Angular, JavaScript, SQL Server
+  * Angular
+  * JavaScript
 
-Project Description:
-Development and implementation of a medical leave management module within a corporate system, aimed at controlling and monitoring employee absenteeism due to health reasons. The module allows for the registration, consultation, validation, and management of medical leave cases, as well as the automated generation of reports for HR and healthcare entities.
+* **Otros:**
 
-Key Responsibilities:
+  * Git
+  * GitHub
+  * Visual Studio Code
 
-Designed and implemented RESTful services using .NET Core to handle business logic and database interaction.
+---
 
-Developed the frontend with Angular, incorporating dynamic forms with custom validations in JavaScript.
+## 📁 Estructura del Proyecto
 
-Managed user roles and permissions (doctors, administrative staff, employees).
+```plaintext
+├── AccesoDatosParametros/
+├── Common.Incapacidades/
+├── GateWayIncapacidades3/
+├── LibreriasAutorizacion/
+├── LibreriasIncapacidades/
+├── NegocioAutorizaciones/
+├── NegocioIncapacidades/
+├── NegocioParametros/
+├── Notificaciones/
+├── ServiciosAutorizaciones/
+├── ServiciosIncapacidades/
+├── ServiciosParametros/
+├── WebApiAutorizaciones/
+├── WebApiIncapacidades/
+├── WebApiParametros/
+├── incapacidades-front/
+├── .gitignore
+├── BrokerIncapacidades.sln
+├── GatewayIncapacidades.sln
+├── WebApiIncapacidades.sln
+└── README.md
+```
 
-Implemented logic for working day calculations, date range validation, and medical leave type rules.
+---
 
-Developed report generation features in PDF and Excel formats.
+## ⚙️ Instalación y Ejecución
 
-Integrated with external systems via REST APIs to verify medical certificates.
+### Backend
 
-Created technical documentation and provided user support.
+1. Clona el repositorio:
 
-Achievements:
+   ```bash
+   git clone https://github.com/jdiegomoreno8/Modulo_Incapacidades_2021-2024.git
+   cd Modulo_Incapacidades_2021-2024
+   ```
 
-Reduced medical leave processing time by 40%.
+2. Restaura los paquetes NuGet:
 
-Improved process traceability and audit capabilities.
+   ```bash
+   dotnet restore
+   ```
 
-Successfully integrated with national social security platforms.
+3. Ejecuta la API:
+
+   ```bash
+   dotnet run --project WebApiIncapacidades/WebApiIncapacidades.csproj
+   ```
+
+### Frontend
+
+1. Navega al directorio del frontend:
+
+   ```bash
+   cd incapacidades-front
+   ```
+
+2. Instala las dependencias:
+
+   ```bash
+   npm install
+   ```
+
+3. Inicia la aplicación:
+
+   ```bash
+   ng serve
+   ```
+
+La aplicación estará disponible en `http://localhost:4200`.
+
+---
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas colaborar en este proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Haz push a la rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+Si necesitas ayuda adicional o tienes alguna pregunta sobre el proyecto, no dudes en contactarme a través de los canales disponibles en mi perfil de GitHub.
+
+---
