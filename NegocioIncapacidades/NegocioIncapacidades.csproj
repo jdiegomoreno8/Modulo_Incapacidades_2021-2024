@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Implementaciones\Administracion\**" />
+    <Compile Remove="Interfaces\Administracion\**" />
+    <EmbeddedResource Remove="Implementaciones\Administracion\**" />
+    <EmbeddedResource Remove="Interfaces\Administracion\**" />
+    <None Remove="Implementaciones\Administracion\**" />
+    <None Remove="Interfaces\Administracion\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="FinalidadConsultaNegocio.cs" />
+    <Compile Remove="Implementaciones\FinalidadConsultaNegocio.cs" />
+    <Compile Remove="Interfaces\FinalidadConsultaNegocio.cs" />
+    <Compile Remove="Interfaces\ModalidadRealizacionConsultaNegocio.cs" />
+    <Compile Remove="ModalidadRealizacionConsultaNegocio.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Incapacidades\Common.Incapacidades.csproj" />
+    <ProjectReference Include="..\LibreriasIncapacidades\LibreriasIncapacidades.csproj" />
+  </ItemGroup>
+
+</Project>

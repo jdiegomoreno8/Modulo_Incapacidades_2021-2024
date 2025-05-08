@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Incapacidades\Common.Incapacidades.csproj" />
+    <ProjectReference Include="..\LibreriasIncapacidades\LibreriasIncapacidades.csproj" />
+    <ProjectReference Include="..\NegocioIncapacidades\NegocioIncapacidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Template\NotificacionExpedicionIncapacidadAnuladaAFP.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadPagada.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadRehabilitacionConcepto120.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadRehabilitacion90.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadAnuladaEmpleador.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadAnuladaEPSARL.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadEmailAFP.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadEmailEmpleador.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Template\NotificacionExpedicionIncapacidadEmailAdministradora.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\Reporte\**" />
+    <Compile Remove="Controllers\Seguridad\**" />
+    <Compile Remove="Security\**" />
+    <Content Remove="Controllers\Reporte\**" />
+    <Content Remove="Controllers\Seguridad\**" />
+    <Content Remove="Security\**" />
+    <EmbeddedResource Remove="Controllers\Reporte\**" />
+    <EmbeddedResource Remove="Controllers\Seguridad\**" />
+    <EmbeddedResource Remove="Security\**" />
+    <None Remove="Controllers\Reporte\**" />
+    <None Remove="Controllers\Seguridad\**" />
+    <None Remove="Security\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\Parametros\Incapacidades\FinalidadConsultaController.cs" />
+    <Compile Remove="Controllers\WeatherForecastController.cs" />
+    <Compile Remove="WeatherForecast.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Mock\persona.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="7.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Runtime.Caching" Version="7.0.0" />
+    <PackageReference Include="System.ServiceModel.Duplex" Version="4.9.0" />
+    <PackageReference Include="System.ServiceModel.Http" Version="4.9.0" />
+    <PackageReference Include="System.ServiceModel.NetTcp" Version="4.9.0" />
+    <PackageReference Include="System.ServiceModel.Security" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriasIncapacidades\LibreriasIncapacidades.csproj" />
+    <ProjectReference Include="..\ServiciosIncapacidades\ServiciosIncapacidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Mock\persona.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="img\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

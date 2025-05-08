@@ -1,0 +1,135 @@
+
+Log Entry : 8:45:51 p.m. viernes, 3 de junio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 8:46:57 p.m. viernes, 3 de junio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 8:51:03 p.m. viernes, 3 de junio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 9:08:50 p.m. viernes, 3 de junio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 9:09:09 p.m. viernes, 3 de junio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 9:52:20 a.m. sábado, 4 de junio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 7:04:20 a. m. martes, 26 de julio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 8:19:31 a. m. miércoles, 27 de julio de 2022
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 12:14:00 p. m. miércoles, 5 de octubre de 2022
+  :
+  :{ codigo = 505, mensaje = El procedimiento o la función 'Consultar_Incapacidad_Registrar_Pago' esperaba el parámetro '@estado', que no se ha especificado., detalle =  }
+-------------------------------
+
+Log Entry : 12:17:24 p. m. miércoles, 5 de octubre de 2022
+  :
+  :{ codigo = 505, mensaje = Unable to cast object of type 'System.Int32' to type 'System.String'., detalle =  }
+-------------------------------
+
+Log Entry : 12:18:37 p. m. miércoles, 5 de octubre de 2022
+  :
+  :{ codigo = 505, mensaje = Unable to cast object of type 'System.Int32' to type 'System.String'., detalle =  }
+-------------------------------
+
+Log Entry : 6:57:00 p. m. miércoles, 5 de octubre de 2022
+  :
+  :{ codigo = 505, mensaje = Error al convertir el tipo de datos varchar a bigint., detalle =  }
+-------------------------------
+
+Log Entry : 4:35:43 p.m. lunes, 24 de octubre de 2022
+  :
+  :{ codigo = 505, mensaje = Could not find stored procedure 'dbo.Consultar_Causal_Glosa'., detalle =  }
+-------------------------------
+
+Log Entry : 9:49:23 p.m. martes, 25 de octubre de 2022
+  :
+  :{ codigo = 505, mensaje = Could not find stored procedure 'dbo.Consultar_Concepto_Rehabilitacion'., detalle =  }
+-------------------------------
+
+Log Entry : 7:21:05 p.m. miércoles, 25 de enero de 2023
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 6:17:53 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 6:20:09 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 7:07:23 PM Friday, April 14, 2023
+  :
+  :{ codigo = 505, mensaje = Object reference not set to an instance of an object., detalle =  }
+-------------------------------
+
+Log Entry : 7:09:46 PM Friday, April 14, 2023
+  :
+  :{ codigo = 505, mensaje = Object reference not set to an instance of an object., detalle =  }
+-------------------------------
+
+Log Entry : 7:26:20 PM Friday, April 14, 2023
+  :
+  :{ codigo = 501, mensaje = SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., detalle = , data =  { } }
+-------------------------------
+
+Log Entry : 7:27:48 PM Friday, April 14, 2023
+  :
+  :{ codigo = 501, mensaje = SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., detalle = , data =  { } }
+-------------------------------
+
+Log Entry : 7:28:13 PM Friday, April 14, 2023
+  :
+  :{ codigo = 501, mensaje = SqlDateTime overflow. Must be between 1/1/1753 12:00:00 AM and 12/31/9999 11:59:59 PM., detalle = , data =  { } }
+-------------------------------
+
+Log Entry : 7:37:47 PM Friday, April 14, 2023
+  :
+  :{ codigo = 501, mensaje = Procedure or function Insertar_Perdida_Capacidad_Laboral has too many arguments specified., detalle = , data =  { } }
+-------------------------------
+
+Log Entry : 7:43:28 PM Friday, April 14, 2023
+  :
+  :{ codigo = 505, mensaje = Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding., detalle = System.ComponentModel.Win32Exception (258): The wait operation timed out. }
+-------------------------------
+
+Log Entry : 7:44:48 PM Friday, April 14, 2023
+  :
+  :{ codigo = 505, mensaje = Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding., detalle = System.ComponentModel.Win32Exception (258): The wait operation timed out. }
+-------------------------------
+
+Log Entry : 7:45:00 PM Friday, April 14, 2023
+  :
+  :{ codigo = 505, mensaje = Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding., detalle = System.ComponentModel.Win32Exception (258): The wait operation timed out. }
+-------------------------------
+
+Log Entry : 9:47:10 AM Saturday, April 15, 2023
+  :
+  :{ codigo = 501, mensaje = Procedure or function Insertar_Perdida_Capacidad_Laboral has too many arguments specified., detalle = , data =  { } }
+-------------------------------

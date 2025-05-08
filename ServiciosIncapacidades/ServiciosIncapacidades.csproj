@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Implementaciones\Autenticacion\**" />
+    <Compile Remove="Interfaces\Autenticacion\**" />
+    <EmbeddedResource Remove="Implementaciones\Autenticacion\**" />
+    <EmbeddedResource Remove="Interfaces\Autenticacion\**" />
+    <None Remove="Implementaciones\Autenticacion\**" />
+    <None Remove="Interfaces\Autenticacion\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Implementaciones\FinalidadConsultaServicio.cs" />
+    <Compile Remove="Implementaciones\TokenAuthenticationService.cs" />
+    <Compile Remove="Implementaciones\UsuarioServicio2.cs" />
+    <Compile Remove="Interfaces\IAuthenticateService.cs" />
+    <Compile Remove="Interfaces\IFinalidadConsultaServicio.cs" />
+    <Compile Remove="Interfaces\IUsuarioServicio2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.7.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.15.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriasIncapacidades\LibreriasIncapacidades.csproj" />
+    <ProjectReference Include="..\NegocioIncapacidades\NegocioIncapacidades.csproj" />
+  </ItemGroup>
+
+</Project>

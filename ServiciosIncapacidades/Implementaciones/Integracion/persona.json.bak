@@ -1,0 +1,191 @@
+{
+  "msg": "string",
+  "Success": true,
+  "Errors": [
+    "string"
+  ],
+  "InfoAfiliadoSal": {
+    "infoGeneral": [
+      {
+        "NUMEIDENT": "string",
+        "CODTIPIDE": "string",
+        "PRIMNOMBR": "string",
+        "SEGUNOMBR": "string",
+        "PRIMAPELL": "string",
+        "SEGUAPELL": "string",
+        "FECHNACIM": "string",
+        "MUNICINACIM": "string",
+        "DEPARNACIM": "string",
+        "CODISEXO": "string",
+        "DEPARRESIDEN": "string",
+        "MUNICIRESIDEN": "string",
+        "FECHREGIS": "string",
+        "FECHFALLE": "string",
+        "VIVO": "string",
+        "NOMBETNIA": "string",
+        "CODPERETN": "string",
+        "NOMGRUPOB": "string",
+        "CODGRUPOB": "string",
+        "NOMNIVSIS": "string",
+        "CODNIVSIS": "string",
+        "FICHSISBE": "string",
+        "DEPARSISBE": "string",
+        "MUNICSISBEN": "string",
+        "DATOSCERTIFICAD": "string"
+      }
+    ],
+    "infoEPS": [
+      {
+        "Tipo_identificacion": "string",
+        "Numero_identificacion": "string",
+        "Nombres": "string",
+        "Apellidos": "string",
+        "Fecha_nacimiento": "string",
+        "Departamento": "string",
+        "Municipio": "string",
+        "Estado": "string",
+        "Entidad": "string",
+        "Regimen": "string",
+        "Fecha_afiliacion": "string",
+        "Tipo_afiliado": "string",
+        "Estado_mipres": "string",
+        "Fecha_corte": "string"
+      }
+    ],
+    "infoAFP": [
+      {
+        "CODTIPCOT": "string",
+        "NOMTIPCOT": "string",
+        "NOMREGADM": "string",
+        "IDADMINISTRADO": "string",
+        "NOMBADMIN": "string",
+        "FECHAFILI": "string",
+        "CODESTAFI": "string",
+        "NOMESTAFI": "string",
+        "NOMBMUNIC": "string",
+        "NOMBDEPAR": "string",
+        "AFILSUBSI": "string",
+        "FECVINAPO": "string",
+        "FECDESAPO": "string",
+        "CODTIPIDE": "string",
+        "NUMEIDENT": "string",
+        "RAZOSOCIA": "string"
+      }
+    ],
+    "infoCST": [
+      {
+        "NOMREGADM": "string",
+        "CODIADMIN": "string",
+        "NOMBADMIN": "string",
+        "FECHAFILI": "string",
+        "CODESTAFI": "string",
+        "NOMBESTAD": "string",
+        "CODTIPAFI": "string",
+        "NOMTIPAFI": "string",
+        "NOMBMUNIC": "string",
+        "NOMBDEPAR": "string",
+        "FECHVINCU": "string",
+        "CODTIPIDE": "string",
+        "NUMEIDENT": "string",
+        "RAZOSOCIA": "string"
+      }
+    ],
+    "infoCCF": [
+      {
+        "CODTIPAFI": "string",
+        "NOMTIPAFI": "string",
+        "CODIADMIN": "string",
+        "NOMBADMIN": "string",
+        "FECHAFILI": "string",
+        "CODESTAFI": "string",
+        "NOMESTAFI": "string",
+        "CODCONBEN": "string",
+        "NOMCONBEN": "string",
+        "NOMBDEPAR": "string",
+        "NOMBMUNIC": "string",
+        "FECVINAPO": "string",
+        "IDTIPOIDENTI": "string",
+        "NUMEIDENT": "string",
+        "RAZOSOCIA": "string",
+        "CODTIPREL": "string",
+        "NOMRELAFI": "string",
+        "CODTIPMPC": "string",
+        "NOMTIPMPC": "string"
+      }
+    ],
+    "infoARP": [
+      {
+        "CODIADMIN": "string",
+        "NOMBADMIN": "string",
+        "FECHAFILI": "string",
+        "CODESTAFI": "string",
+        "NOMESTAFI": "string",
+        "NOMBDEPAR": "string",
+        "NOMBMUNIC": "string",
+        "IDTIPOIDENTI": "string",
+        "NUMEIDENT": "string",
+        "RAZOSOCIA": "string",
+        "CODTIPIDE": "string"
+      }
+    ],
+    "infoPagPension": [
+      {
+        "CODTIPPEN": "string",
+        "NOMTIPPEN": "string",
+        "CODESTAFI": "string",
+        "NOMESTAFI": "string",
+        "FECINIPAG": "string",
+        "IDTIPOIDENTI": "string",
+        "NUMEIDENT": "string",
+        "RAZOSOCIA": "string",
+        "FECHSUSPE": "string",
+        "CODCAURET": "string",
+        "NOMCAURET": "string",
+        "CODCAUSUS": "string",
+        "NOMCAUSUS": "string",
+        "VALOMESAD": "string"
+      }
+    ],
+    "infoSubsidios": [
+      {
+        "CODTIPBEN": "string",
+        "NOMTIPBEN": "string",
+        "CODIADMIN": "string",
+        "NOMBADMIN": "string",
+        "NOMBDEPAR": "string",
+        "NOMBMUNIC": "string",
+        "FECHASIGN": "string",
+        "VALOBENEF": "string",
+        "FECULTBEN": "string",
+        "CODTIPIDE": "string",
+        "NUMEIDENT": "string",
+        "PRIMNOMBR": "string",
+        "SEGUNOMBR": "string",
+        "PRIMAPELL": "string",
+        "SEGUAPELL": "string",
+        "RAZOSOCIA": "string"
+      }
+    ],
+    "InfoProgramas": [
+      {
+        "CODIPROGR": "string",
+        "NOMBPROGR": "string",
+        "CODTIPBEN": "string",
+        "NOMTIPBEN": "string",
+        "FECHVINCU": "string",
+        "FECHRETIR": "string",
+        "NOMBDEPAR": "string",
+        "NOMBMUNIC": "string",
+        "CODTIPIDE": "string",
+        "NUMEIDENT": "string",
+        "RAZOSOCIA": "string",
+        "MONTBENEF": "string",
+        "FECENTBEN": "string",
+        "CODESTBEN": "string",
+        "NOMESTBEN": "string",
+        "ACTIVO": "string",
+        "ESTADOVINCULA": "string"
+      }
+    ]
+  }
+}

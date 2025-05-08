@@ -1,0 +1,45 @@
+
+Log Entry : 3:29:34 p.m. jueves, 23 de febrero de 2023
+  :
+  :{ codigo = 505, mensaje = The request stream was aborted., detalle = Microsoft.AspNetCore.Connections.ConnectionAbortedException: The HTTP/2 connection faulted. }
+-------------------------------
+
+Log Entry : 5:28:57 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 505, mensaje = Unable to resolve service for type 'ServiciosParametros.Incapacidades.IConsultarRegistroPagoServicio' while attempting to activate 'WebApiParametros.Controllers.Incapacidades.ConsultarRegistroPagoController'., detalle =  }
+-------------------------------
+
+Log Entry : 5:29:03 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 505, mensaje = Unable to resolve service for type 'ServiciosParametros.Incapacidades.IConsultarRegistroPagoServicio' while attempting to activate 'WebApiParametros.Controllers.Incapacidades.ConsultarRegistroPagoController'., detalle =  }
+-------------------------------
+
+Log Entry : 5:35:09 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 5:43:13 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 404, mensaje = Persona no encontrada, detalle =  }
+-------------------------------
+
+Log Entry : 5:43:51 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 505, mensaje = The document has no pages., detalle =  }
+-------------------------------
+
+Log Entry : 5:45:13 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 505, mensaje = The document has no pages., detalle =  }
+-------------------------------
+
+Log Entry : 5:47:41 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 505, mensaje = The document has no pages., detalle =  }
+-------------------------------
+
+Log Entry : 6:19:45 PM Sunday, February 26, 2023
+  :
+  :{ codigo = 505, mensaje = Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding., detalle = System.ComponentModel.Win32Exception (258): The wait operation timed out. }
+-------------------------------

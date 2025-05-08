@@ -1,0 +1,407 @@
+{
+  //"Aggregates": [
+  //  {
+  //    "UpstreamPathTemplate": "/api/usersPosts",
+  //    "RouteKeys": [ "users", "posts" ],
+  //    "Aggregator": "UsersPostsAggregator"
+  //  }
+  //],
+  "Routes": [
+
+    {
+      "UpstreamPathTemplate": "/parametros/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44327 //85
+        }
+      ],
+      "DownstreamPathTemplate": "/{path}",
+      "Key": "entitiesAll"
+    },
+    {
+      "UpstreamPathTemplate": "/Administradoras/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44327
+        }
+      ],
+      "DownstreamPathTemplate": "/{path}",
+      "Key": "entitiesAll"
+    },
+    {
+      "UpstreamPathTemplate": "/integracion/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44384 //87
+        }
+      ],
+      "DownstreamPathTemplate": "/{path}",
+      "Key": "entitiesAll"
+    },
+    {
+      "UpstreamPathTemplate": "/Incapacidad/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44384 //87
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Incapacidad/{path}",
+      "Key": "incapacidadAll"
+    },
+
+    //{
+    //  "UpstreamPathTemplate": "/RegistrarPago/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384 //87
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/RegistrarPago/{path}",
+    //  "Key": "incapacidadAll"
+    //},
+
+    {
+      "UpstreamPathTemplate": "/Autenticacion/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44353 //87
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Autenticacion/{path}",
+      "Key": "authenticationAll"
+    },
+    {
+      "UpstreamPathTemplate": "/HerculesSOAP/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44353
+        }
+      ],
+      "DownstreamPathTemplate": "/api/HerculesSOAP/{path}",
+      "Key": "HerculesSOAP"
+    },
+
+    {
+      "UpstreamPathTemplate": "/Menu/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44353 //87
+        }
+      ],
+      "DownstreamPathTemplate": "/api/Menu/{path}",
+      "Key": "menuAll"
+    },
+
+    {
+      "UpstreamPathTemplate": "/ConsultarRegistroPago/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44384 //87
+        }
+      ],
+      "DownstreamPathTemplate": "/api/ConsultarRegistroPago/{path}",
+      "Key": "menuAll"
+    },
+
+    {
+      "UpstreamPathTemplate": "/{path}",
+      "UpstreamHttpMethod": [ "Get", "Post" ],
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44384 //87
+        }
+      ],
+      "DownstreamPathTemplate": "/api/{path}",
+      "Key": "incapacidadAll"
+    }
+
+
+    //{
+    //  "UpstreamPathTemplate": "/api/Paciente/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Paciente/{path}",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/PacienteNoEncontrado/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/PacienteNoEncontrado/{path}",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/RelacionPacienteAfiliadoSalud/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/RelacionPacienteAfiliadoSalud/{path}",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/ConsultaPersona/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44306
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/ConsultaPersona/{path}",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/HerculesSOAP/Autenticar2",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/HerculesSOAP/Autenticar2",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/integracion/ConsultaPersona",
+    //  "UpstreamHttpMethod": [ "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44306
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/integracion/ConsultaPersona",
+    //  "Key": "integracionApi"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/seguridad/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/{path}",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/incapacidades/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44384
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/{path}",
+    //  "Key": "entitiesPost"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/parametros/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/parametros/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/CausaAnulacion/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/CausaAnulacion/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/CausaAtencion/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/CausaAtencion/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/Cie10/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Cie10/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/GrupoServicios/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/GrupoServicios/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/MotivaRetroactiva/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/MotivaRetroactiva/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/RetroactivaMotivoR/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/RetroactivaMotivoR/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/TranstornoMental/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/TranstornoMental/{path}",
+    //  "Key": "entitiesGet"
+    //},
+
+    //{
+    //  "UpstreamPathTemplate": "/api/Departamentos/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Departamentos/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/Municipios/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Municipios/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/Origen/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Origen/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/Regimen/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Regimen/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/Sexo/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/Sexo/{path}",
+    //  "Key": "entitiesGet"
+    //},
+    //{
+    //  "UpstreamPathTemplate": "/api/TipoDocumento/{path}",
+    //  "UpstreamHttpMethod": [ "Get", "Post" ],
+    //  "DownstreamHostAndPorts": [
+    //    {
+    //      "Host": "localhost",
+    //      "Port": 44363
+    //    }
+    //  ],
+    //  "DownstreamPathTemplate": "/api/TipoDocumento/{path}",
+    //  "Key": "entitiesGet"
+    //}
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:44310" //8081
+  }
+}
